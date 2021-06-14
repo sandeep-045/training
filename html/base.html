@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <header>
+        <div class="main">
+        <ul class ="main pos">
+            <li class="active"><a href="#" >Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="signup.html">Signup</a></li>
+            <li><a href="login.html">Login</a></li>   
+        </ul>
+        </div>
+     
+    </header>
+</body>
+</html>
+<style>
+*
+{
+    margin:0;
+    padding:0;
+}
+header
+{
+    background-image:url('ssa.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;  
+}
+ul
+{   margin-top: 10px;
+    list-style-type:none;
+    float:right;
+}
+ul li
+{
+display:inline-block;
+}
+ul li a
+{  
+    text-decoration: none;
+    color:white;
+    padding:5px 20px 5px ;
+    border:1px solid transparent;
+    transition: 0.5s ease;
+}
+ul li a:hover
+{
+    background-color:white;
+    color:black;
+}
+.main
+{
+    max-width:1200px;
+}
+ul li.active a{
+    background-color:white;
+    color:black;
+}
+</style>
